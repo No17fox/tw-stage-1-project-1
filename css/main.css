@@ -38,3 +38,25 @@ ul li:last-child {
   text-align: center;
   text-decoration: none;
 }
+.search {
+  font-size: 0px;
+}
+.search input {
+  background: rgb(51, 51, 51);
+  border: none;
+  box-sizing: border-box;
+  height: 43px;
+  width: 120px;
+  padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  float: left;
+}
+.search button {
+  background: rgb(51, 51, 51);
+  border: none;
+  box-sizing: border-box;
+  height: 43px;
+  width: 43px;
+  float: left;
+}
