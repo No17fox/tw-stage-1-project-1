@@ -140,9 +140,6 @@ li a {
 .content > div:nth-of-type(2) {
   background: url('../image/mollweide_cycle.jpg');
 }
-.content > div:nth-of-type(3) {
-  background: rgb(69, 112, 154);
-}
 .content > div:nth-of-type(4) {
   background: url('../image/s69-39961.jpg');
 }
@@ -180,7 +177,31 @@ li a {
   color: black;
   font-size: 18px;
 }
-.content > div {
+.content > div:not(.bulletin_board) {
   display: flex;
   align-items: flex-end;
+}
+.bulletin_board {
+  background: rgb(69, 112, 154);
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  position: relative;
+}
+.bulletin_board a {
+  color: white;
+  font-size: 14px;
+}
+.title {
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.more_infor {
+  padding: 5px;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  width: 95%;
 }
