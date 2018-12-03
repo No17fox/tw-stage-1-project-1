@@ -4,7 +4,7 @@ body {
   margin: auto;
 }
 .header {
-  background: url('素材/starfield-banner.jpg ');
+  background: url('../image/starfield-banner.jpg ');
   position: fixed;
   width: 95%;
 }
