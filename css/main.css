@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: black;
   width: 95%;
@@ -25,7 +28,6 @@ ul {
 }
 li {
   float: left;
-  padding: 11px;
 }
 li a {
   display:block;
@@ -34,10 +36,11 @@ li a {
   text-align: center;
   text-decoration: none;
 }
-.navigation li {
+#main li {
+  padding: 11px;
   border-right: 2px solid rgb(57, 57, 57);
 }
-.navigation ul li:last-child {
+#main li:last-child {
   border-right: 2px;
 }
 #main li a {
@@ -49,10 +52,32 @@ li a {
 }
 #sub li a {
   font-size: 14px;
+  float: left;
+  margin: 0px 0px;
 }
-#sub ul li {
-  background: rgb(85, 85, 85);
-  border-color: rgb(112, 112, 112);
+#sub li {
+  background: #555;
+  height: 40px;
+  margin: 0px;
+  padding: 10px 5px;
+}
+#sub li:before {
+  content: "";
+  float: left;
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: #888;
+  margin-right: 10px;
+}
+#sub li:first-child:before {
+  background-color: rgba(0, 0, 0, 0);
+}
+#sub li:last-child {
+  padding-right: 15px;
+}
+#sub li:first-child {
+  padding-left: 5px;
 }
 .search {
   font-size: 0px;
@@ -62,7 +87,6 @@ li a {
 .search input {
   background: rgb(51, 51, 51);
   border: none;
-  box-sizing: border-box;
   height: 42px;
   width: 120px;
   padding: 10px;
@@ -73,7 +97,6 @@ li a {
 .search button {
   background: rgb(51, 51, 51);
   border: none;
-  box-sizing: border-box;
   height: 42px;
   width: 42px;
   float: right;
@@ -81,7 +104,6 @@ li a {
 .share button {
   background: rgba(0, 0, 0, 0);
   border: none;
-  box-sizing: border-box;
   height: 43px;
   width: 43px;
   float: right;
