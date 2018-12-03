@@ -22,6 +22,10 @@ img {
   width: 100%;
   height: 100%;
 }
+a {
+  text-align: center;
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
   margin: 0px;
@@ -34,8 +38,6 @@ li a {
   display:block;
   width: fit-content;
   color: white;
-  text-align: center;
-  text-decoration: none;
 }
 #main li {
   padding: 11px;
@@ -132,40 +134,52 @@ li a {
 .wider {
   grid-column-end: span 2;
 }
-.content div:first-of-type {
+.content > div:first-of-type {
   background: url('../image/pia21924-16.jpg');
 }
-.content div:nth-of-type(2) {
+.content > div:nth-of-type(2) {
   background: url('../image/mollweide_cycle.jpg');
 }
-.content div:nth-of-type(3) {
+.content > div:nth-of-type(3) {
   background: rgb(69, 112, 154);
 }
-.content div:nth-of-type(4) {
+.content > div:nth-of-type(4) {
   background: url('../image/s69-39961.jpg');
 }
-.content div:nth-of-type(5) {
+.content > div:nth-of-type(5) {
   background: url('../image/ssc2017-14a1.jpg');
 }
-.content div:nth-of-type(6) {
+.content > div:nth-of-type(6) {
   background: url('../image/pia22556-16.gif');
 }
-.content div:nth-of-type(7) {
+.content > div:nth-of-type(7) {
   background: url('../image/mollweide_cycle.jpg');
 }
-.content div:nth-of-type(8) {
+.content > div:nth-of-type(8) {
   background: url('../image/nasa_logo.png');
 }
-.content div:nth-of-type(9) {
+.content > div:nth-of-type(9) {
   background: url('../image/io-home.gif');
 }
-.content div:nth-of-type(10) {
+.content > div:nth-of-type(10) {
   background: url('../image/cassini20170809.jpg');
 }
-.content div:nth-of-type(11) {
+.content > div:nth-of-type(11) {
   background: url('../image/fermiicecube_as.jpg');
 }
 .content div[class] {
   background-size: cover;
   background-position: center;
+}
+.content .headline {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 5px 10px;
+}
+.content .headline a {
+  color: black;
+}
+.content > div {
+  display: flex;
+  align-items: flex-end;
 }
