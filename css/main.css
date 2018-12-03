@@ -2,6 +2,7 @@ body {
   background-color: black;
   width: 95%;
   margin: auto;
+  font-family: 'Titillium Web', sans-serif;
 }
 .header {
   background: url('../image/starfield-banner.jpg ');
