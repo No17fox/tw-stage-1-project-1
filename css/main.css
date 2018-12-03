@@ -26,20 +26,24 @@ ul {
 li {
   float: left;
   padding: 11px;
-  border-right: 2px solid rgb(57, 57, 57);
 }
-ul li:last-child {
-  border-right: 2px;
-}
-.navigation li a {
+li a {
   display:block;
   width: fit-content;
   color: white;
-  font-size: 21px;
   text-align: center;
   text-decoration: none;
 }
-.header .navigation {
+.navigation li {
+  border-right: 2px solid rgb(57, 57, 57);
+}
+.navigation ul li:last-child {
+  border-right: 2px;
+}
+#main li a {
+  font-size: 21px;
+}
+#main {
   float: right;
   margin: 15px;
 }
