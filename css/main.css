@@ -47,6 +47,13 @@ li a {
   float: right;
   margin: 15px;
 }
+#sub li a {
+  font-size: 14px;
+}
+#sub ul li {
+  background: rgb(85, 85, 85);
+  border-color: rgb(112, 112, 112);
+}
 .search {
   font-size: 0px;
   margin-top: 25px;
