@@ -178,6 +178,7 @@ li a {
 }
 .content .headline a {
   color: black;
+  font-size: 18px;
 }
 .content > div {
   display: flex;
