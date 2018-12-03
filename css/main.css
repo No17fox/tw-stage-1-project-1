@@ -59,7 +59,7 @@ li a {
   background: #555;
   height: 40px;
   margin: 0px;
-  padding: 10px 5px;
+  padding: 10px 7px;
 }
 #sub li:before {
   content: "";
@@ -68,7 +68,7 @@ li a {
   width: 2px;
   height: 110%;
   background-color: #888;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 #sub li:first-child:before {
   background-color: #555;
