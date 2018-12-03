@@ -71,13 +71,17 @@ li a {
   margin-right: 10px;
 }
 #sub li:first-child:before {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #555;
 }
 #sub li:last-child {
   padding-right: 15px;
 }
 #sub li:first-child {
   padding-left: 5px;
+}
+#sub {
+  position: relative;
+  left: 7%;
 }
 .search {
   font-size: 0px;
