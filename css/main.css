@@ -60,3 +60,11 @@ ul li:last-child {
   width: 43px;
   float: left;
 }
+.share button {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  box-sizing: border-box;
+  height: 43px;
+  width: 43px;
+  float: left;
+}
