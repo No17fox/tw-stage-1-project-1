@@ -46,6 +46,9 @@ li a {
 #main li:last-child {
   border-right: 2px;
 }
+#main li:hover {
+  background-color: rgb(21, 65, 140);
+}
 #main li a {
   font-size: 21px;
 }
@@ -58,11 +61,14 @@ li a {
   float: left;
   margin: 0px 0px;
 }
+#sub li:hover {
+  background-color: #888;
+}
 #sub li {
   background: #555;
   height: 40px;
   margin: 0px;
-  padding: 10px 7px;
+  padding: 10px 10px 10px 0px;
 }
 #sub li:before {
   content: "";
