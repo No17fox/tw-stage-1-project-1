@@ -240,11 +240,23 @@ video {
 }
 .footer .status {
   color: white;
-  font-family: bold Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   margin: 20px 0px;
   float: left;
 }
 p {
   margin: 0px;
+}
+.footer .navigation a {
+  color: #5d7fb9;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.footer .navigation li {
+  padding: 11px;
+}
+.footer .navigation {
+  float: right;
+  margin-top: 60px;
 }
