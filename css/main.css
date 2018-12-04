@@ -184,8 +184,18 @@ button {
   font-size: 18px;
   font-weight: bold;
 }
+.content .tag {
+  background: rgba(93, 127, 185, 0.8);
+  padding: 5px 10px;
+}
+.content .tag a {
+  color: white;
+  font-size: 18px;
+}
 .content > div:not(.bulletin_board) {
   display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
   align-items: flex-end;
 }
 .bulletin_board {
@@ -214,11 +224,10 @@ button {
 }
 .video {
   background: #000;
-  width: 290px;
 }
 video {
   object-fit: cover;
-  max-width: 290px;
+  max-width: 305px;
 }
 .read_more {
   width: 100%;
