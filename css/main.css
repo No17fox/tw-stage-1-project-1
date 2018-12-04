@@ -155,9 +155,6 @@ li a {
 .content > div:nth-of-type(6) {
   background: url('../image/pia22556-16.gif');
 }
-.content > div:nth-of-type(7) {
-  background: url('../image/mollweide_cycle.jpg');
-}
 .content > div:nth-of-type(8) {
   background: url('../image/nasa_logo.png');
 }
@@ -211,4 +208,12 @@ li a {
   position: absolute;
   bottom: 0px;
   width: 95%;
+}
+.video {
+  background: #000;
+  width: 290px;
+}
+video {
+  object-fit: cover;
+  max-width: 290px;
 }
