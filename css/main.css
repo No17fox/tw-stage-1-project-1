@@ -227,6 +227,7 @@ video {
   margin: 10px 0px;
   background: rgb(21, 65, 140);
   color: white;
+  font-weight: bold;
   text-align: center;
 }
 .footer {
