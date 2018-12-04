@@ -109,16 +109,14 @@ li a {
 }
 .search button {
   background: rgb(51, 51, 51);
-  border: none;
-  height: 42px;
-  width: 42px;
-  float: right;
 }
 .share button {
   background: rgba(0, 0, 0, 0);
+}
+button {
   border: none;
-  height: 43px;
-  width: 43px;
+  height: 42px;
+  width: 42px;
   float: right;
 }
 .share {
