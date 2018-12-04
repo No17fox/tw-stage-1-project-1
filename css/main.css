@@ -176,6 +176,7 @@ li a {
 .content .headline a {
   color: black;
   font-size: 18px;
+  font-weight: bold;
 }
 .content > div:not(.bulletin_board) {
   display: flex;
