@@ -237,9 +237,14 @@ video {
   padding: 7px;
   margin: 10px 0px;
   background: rgb(21, 65, 140);
-  color: white;
   font-weight: bold;
   text-align: center;
+}
+.read_more a {
+  color: white;
+}
+.read_more:hover {
+  background: rgb(93, 127, 185);
 }
 .footer {
   grid-row-end: 4;
