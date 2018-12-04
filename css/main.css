@@ -224,6 +224,8 @@ button {
 }
 .video {
   background: #000;
+  font-weight: bold;
+  font-size: 18px;
 }
 video {
   object-fit: cover;
