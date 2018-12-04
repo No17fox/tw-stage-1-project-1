@@ -191,6 +191,9 @@ button {
   background: rgba(93, 127, 185, 0.8);
   padding: 5px 10px;
 }
+.content .tag:hover {
+  background: rgba(93, 127, 185, 1);
+}
 .content .tag a {
   color: white;
   font-size: 18px;
