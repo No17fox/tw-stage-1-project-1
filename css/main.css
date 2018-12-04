@@ -39,38 +39,38 @@ li a {
   width: fit-content;
   color: white;
 }
-#main li {
+.main li {
   padding: 11px;
   border-right: 2px solid rgb(57, 57, 57);
 }
-#main li:last-child {
+.main li:last-child {
   border-right: 2px;
 }
-#main li:hover {
+.main li:hover {
   background-color: rgb(21, 65, 140);
 }
-#main li a {
+.main li a {
   font-size: 21px;
 }
-#main {
+.main {
   float: right;
   margin: 15px;
 }
-#sub li a {
+.sub li a {
   font-size: 14px;
   float: left;
   margin: 0px 0px;
 }
-#sub li:hover {
+.sub li:hover {
   background-color: #888;
 }
-#sub li {
+.sub li {
   background: #555;
   height: 40px;
   margin: 0px;
   padding: 10px 10px 10px 0px;
 }
-#sub li:before {
+.sub li:before {
   content: "";
   float: left;
   display: block;
@@ -79,16 +79,16 @@ li a {
   background-color: #888;
   margin-right: 12px;
 }
-#sub li:first-child:before {
+.sub li:first-child:before {
   background-color: #555;
 }
-#sub li:last-child {
+.sub li:last-child {
   padding-right: 15px;
 }
-#sub li:first-child {
+.sub li:first-child {
   padding-left: 5px;
 }
-#sub {
+.sub {
   position: relative;
   left: 3%;
 }
